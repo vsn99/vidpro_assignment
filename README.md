@@ -193,7 +193,7 @@ output/output_sql.csv
 ### 2. Run Pandas Solution
 
 ```
-python controller.py sql
+python controller.py pandas
 ```
 
 - Loads data from the SQLite database using Pandas
