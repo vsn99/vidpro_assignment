@@ -12,8 +12,6 @@
 - [Solution Approach](#solution-approach)
 - [Setup & Installation](#setup--installation)
 - [Execution Guide](#execution-guide)
-- [Output Description](#output-description)
-- [Assumptions & Design Decisions](#assumptions--design-decisions)
 - [Future Enhancements](#future-enhancements)
 - [Conclusion](#conclusion)
 
