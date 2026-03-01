@@ -12,8 +12,6 @@
 - [Solution Approach](#solution-approach)
 - [Setup & Installation](#setup--installation)
 - [Execution Guide](#execution-guide)
-- [Output Description](#output-description)
-- [Assumptions & Design Decisions](#assumptions--design-decisions)
 - [Future Enhancements](#future-enhancements)
 - [Conclusion](#conclusion)
 
@@ -151,14 +149,16 @@ Follow these steps to set up and run the VIDPRO assignment project:
 ### 1. Clone the Repository
 
 ```
-git clone https://github.com/vsn99/vidpro_assignment/tree/main
+git clone https://github.com/vsn99/vidpro_assignment.git
+```
+```
 cd vidpro_assignment
 ```
 
 ### 2. Install Dependencies
 
 ```
-pip install-r requirements.txt
+python -m pip install -r requirements.txt
 ```
 
 This will install all required Python libraries, including **Pandas**.
