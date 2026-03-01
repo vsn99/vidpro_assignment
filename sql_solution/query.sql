@@ -8,7 +8,7 @@ WITH orders_items_joined AS
 FROM orders o
 LEFT JOIN items i ON
 o.item_id = i.item_id
-WHERE quantity IS NOT NULL AND quantity != 0),
+WHERE quantity IS NOT NULL OR quantity != 0),
 sales_customer_joined AS (SELECT
 	s.sales_id AS sales_id,
     s.customer_id AS customer_id,
